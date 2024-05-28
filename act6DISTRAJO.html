@@ -1,29 +1,56 @@
 <DOCTYPE! html>
-
 <html>
-
 <head>
-
 	<title>Activity 6 Forms</title>
-
 </head>
 
 <body bgcolor="#3094F1">
 <font color="white">
 
+<hr>
 <h1 align="center">Registration Form</h1>
+<hr>
+
 <form>
 
 <br>
 <br>
 
 <h1>Personal Information</h1> 
-<p>First Name: <input type="text"></p>
-<p>Middle Name: <input type="text"></p>
-<p>Last Name: <input type="text"></p>
+
+<p>First Name: <input type="text"> Middle Name: <input type="text"></p>
+<p>Last Name: <input type="text"> Extension: <select name="Religion">
+<option value="None">None</option>
+<option value="Jr.">Jr.</option>
+<option value="Sr.">Sr.</option>
+<option value="I">I</option>
+<option value="II">II</option>
+<option value="III">III</option>
+</select></p>
+
+<p>Birthdate: <input type="text" placeholder="MM/DD/YYYY"></p>
+<p>Sex: <input type="radio" name="sex" value="male">Male<input type="radio" name="sex" value="female">Female</p>
+<p>Civil Status: <input type="radio" name="civil status" value="Single">Single <input type="radio" name="civil status" value="Married">Married <input type="radio" name="civil status" value="Separated">Separated <input type="radio" name="civil status" value="Widowed">Widowed</p>
+
+<p>Educational Attainment: 
+<select name="Educational Attainment">
+<option value="Select">Select</option>
+<option value="Elementary Level">Elementary Level</option>
+<option value="High School Level">High School Level</option>
+<option value="Senior High Level Graduate">Senior High Level</option>
+<option value="College Level">College Level</option>
+</select>
+
+<p>Religion: 
+<select name="Religion">
+<option value="None">None</option>
+<option value="Catholic">Catholic</option>
+<option value="Christian">Christian</option>
+<option value="Islam">Islam</option>
+<option value="Buddhist">Buddhist</option>
+</select> Others: <input type="text"></p>
+
 <p>Address: <input type="text"></p>
-<p>Sex: 
-<input type="radio" value="Male" value="Female"</p>
 <p>Email: <input type="text" placeholder="example@gmail.com"></p>
 <p>Phone Number: <input type="text"></p>
 <input type="submit" value="Submit">
