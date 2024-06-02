@@ -1,0 +1,123 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  nav {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .menu a:hover {
+    color: #cce5ff;
+  }
+  
+  main {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .intro {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .about {
+    background-color: #ffffff;
+    padding: 70px 20px; /* Adjust padding for distance */
+  }
+  
+  .about-me h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-me p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .contact {
+    background-color: #007bff;
+    color: white;
+    padding: 70px 20px; /* Adjust padding for distance */
+  }
+  
+  .contact-me {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+  }
+  
+  .email, .contactNumber {
+    margin: 20px; /* Adjust margin for spacing */
+  }
+  
+  .email, .contactNumber {
+    text-align: center; /* Center the text */
+  }
+  
+  .email h3, .contactNumber h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px; /* Reduce margin for a tighter layout */
+  }
+  
+  .email-link {
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .contact-number {
+    font-size: 1.1rem;
+  }
+  
